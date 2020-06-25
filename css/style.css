@@ -1,0 +1,111 @@
+header {
+    background-color: silver;
+    background-image: url(header.png);
+    height: 250px;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-position: -0px -250px;
+    
+}
+
+.logo {
+	width: 500px;
+	margin-left: 50px;
+}
+
+a {
+    color: black;
+}
+
+
+nav ul{
+    padding: 10px 0px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+nav li{
+    text-decoration: none;
+    border:1px solid;
+    border-radius: 5px;
+    margin-left: 15px;
+    padding: 0px 10px;
+    color: black;
+    background-color: #80DAEB;
+    font-size: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.26), 0 4px 12px rgba(0, 0, 0, 0.31);
+}
+
+.Lockdown_Chapter {
+	border: 1px solid;
+	display: flex;
+}
+/*Timer settings*/
+.countdown-title {
+  font-weight: 100;
+  font-size: 40px;
+  margin: 0px 0px 0px 35%;
+}
+
+.countdown {
+  font-family: sans-serif;
+  color: black;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+  margin-left:40%;
+}
+
+.countdown-number {
+  padding: 10px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.countdown-time {
+  padding: 15px;
+  border-radius: 3px;
+  background: #80DAEB;
+  display: inline-block;
+}
+
+.countdown-text {
+  display: block;
+  padding-top: 5px;
+  font-size: 16px;
+}
+
+.white {
+    text-align: center;
+    font-size: 30px;
+    border:1px solid;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+.block {
+    border: 1px solid;
+    border-radius: 15px;
+    background-color: gray;
+    margin: 10px 0px;
+}
+
+.block_news {
+	display: flex;
+	margin-left: 5px;
+	border: 3px solid;
+	background-color: white;
+	margin-bottom: 10px;
+}
+.info {
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+.LaunchDay{
+	width: 397px;
+}

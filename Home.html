@@ -2,63 +2,64 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>NFB</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-      p {
-        text-align: center;
-        font-size: 60px;
-        margin-top: 0px;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
-    <h1>Countdown to new content</h1>
-    <hr>
+    <header>
+      <img class="logo" src="img/NFB_Logo.png">
+    </header>
+    <nav>
+      <!--The list goes on. It must be filled exclusively in the form.
+        <li><a href="#name_id">Text</a></li>-->
+      <ul>
+        <li><a href="#countdown">Timer</a></li>
+        <li><a href="#News">News</a></li>
+        <li><a href="#Other">Other</a></li>
+    </ul>
+    </nav>
+    <h1 class="countdown-title">New chapter will be released through</h1>
+    <div class="Lockdown_Chapter">
+        <div id="countdown" class="countdown">
+            <div class="countdown-number">
+              <span class="days countdown-time"></span>
+              <span class="countdown-text">Days</span>
+            </div>
+            <div class="countdown-number">
+              <span class="hours countdown-time"></span>
+              <span class="countdown-text">Hours</span>
+            </div>
+            <div class="countdown-number">
+              <span class="minutes countdown-time"></span>
+              <span class="countdown-text">Minutes</span>
+            </div>
+            <div class="countdown-number">
+              <span class="seconds countdown-time"></span>
+              <span class="countdown-text">Seconds</span>
+            </div>
+        </div>
+      </div>
+    <div id="News" class="block">
+      <h2 class="white">Not For Broadcast News</h2>
+          <div class="block_news">
+            <img src="img/LockdownChapter.png"><span class="info"><p><b>Not For Broadcast: Lockdown</b> is now less than a week away from launch. While we suppress the urge to hide under the covers and call our mums, we thought we’d give you all a glimpse into what’s coming your way soon.</p>
 
-        <!-- Display the countdown timer in an element -->
-    <p id="demo"></p>
-    <script>
-    // Set the date we're counting down to
-    var countDownDate = new Date("Jun 25, 2020 18:00:00").getTime();
+            <p>As soon as the clock chimes 6PM BST / 10AM PST / 1PM EST on June 25th - all owners of Not For Broadcast will get this bonus chapter as a free update (if Steam allows…).</p>
 
-    // Update the count down every 1 second
-    var x = setInterval(function() {
+            <p>Us lot at the dev team will also be going live on the hour with insightful behind the scenes stories, sober commentary and live gameplay of the chapter. Well… maybe just the last one. We’ll be joined by eight very special guests you may recognise from the National Nightly News - a few politicians, the odd couple of interviewees, and maybe two anchormen, if you’re lucky.</p></span>
+          </div>
+          <div class="block_news">
+            <img src="img/LaunchDay.png" class="LaunchDay"><span class="info"><p>Two updates in one week? Don’t say we don’t spoil you.</p>
 
-      // Get today's date and time
-      var now = new Date().getTime();
+            <p>Hello you lovely chaps you - we know it feels like just yesterday we released our game into the wild, but today actually marks the four month anniversary of Not For Broadcast’s launch! Soon it’ll be calling us all dada and staying up past bedtime playing NotCoD.</p>
 
-      // Find the distance between now and the count down date
-      var distance = countDownDate - now;
-
-      // Time calculations for days, hours, minutes and seconds
-      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-      // Display the result in the element with id="demo"
-      document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-      + minutes + "m " + seconds + "s ";
-
-      // If the count down is finished, write some text
-      if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("demo").innerHTML = "Brand new Not For Broadcast content is now avalible yay";
-      }
-    }, 1000);
-    </script>
-    <h3>New content should be relesed at 6PM BST (UTC+1)</h3>
-
-    <hr>
-    <h2>News | Click to find out more</h2>
+            <p>To celebrate this milestone, we wanted to share with you a mini documentary on what the NotGames offices looked like on Launch Day, all that time ago</p></span>
+          </div>
+      </div>
 
 
-    <a href="https://store.steampowered.com/newshub/app/1147550/view/2211777006205998563"><img border="0" alt="LaunchDay Img" src="LaunchDay.PNG"></a><a href="https://store.steampowered.com/newshub/app/1147550/view/2211777006198579795"><img border="0" alt="LockdownChapter Img" src="LockdownChapter.png"></a><a href="https://store.steampowered.com/newshub/app/1147550/view/2181375791413584275"><img border="0" alt="WorkingFromHome Img" src="WorkingFromHome.PNG"></a>
-
-    <hr>
-
-    <h4>The following website is made by a community member with far too much time due to being locked into one room because of COVID19. The following website looks shit because this is programmer art. You would be optimistic in thinking I can do the art thing. However, if you also have far too much free time and good at the art thing you are very welcome to steal the open-source code and make it look like Andy (A Dev) in the clown costume. Have fun finding that scene in Not For Broadcast. TBH there are so many easter eggs in the game. Honestly, I am surprised there is no achievement for finding them all. There is like a Fuck tun of them in the game. Its video game easter egg galore. If it was Easter the Easter bunny would have a 10-foot ass hole from all the Easter eggs it's had to shat out to put in the game. Oww, I probably should have said that this is not very family-friendly earlier. Ow well fuck it; there are Nude pixelated people in the game so it's not my fault if you are underage or didn't what the image of the easter bunny with a 10-foot ass hole in your head.</h4>
-
+    <footer id="Other">The following website is made by a community member with far too much time due to being locked into one room because of COVID19. The following website looks shit because this is programmer art. You would be optimistic in thinking I can do the art thing. However, if you also have far too much free time and good at the art thing you are very welcome to steal the open-source code and make it look like Andy (A Dev) in the clown costume. Have fun finding that scene in Not For Broadcast. TBH there are so many easter eggs in the game. Honestly, I am surprised there is no achievement for finding them all. There is like a Fuck tun of them in the game. Its video game easter egg galore. If it was Easter the Easter bunny would have a 10-foot ass hole from all the Easter eggs it's had to shat out to put in the game. Oww, I probably should have said that this is not very family-friendly earlier. Ow well fuck it; there are Nude pixelated people in the game so it's not my fault if you are underage or didn't what the image of the easter bunny with a 10-foot ass hole in your head.</footer>
+  <script src="js/script.js"></script>
   </body>
 </html>
