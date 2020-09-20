@@ -38,5 +38,5 @@ function initializeClock(id, endtime) {
 }
 
 
-var deadline = 'Juny 25 2020 18:00:00 +1' 
+var deadline = 'September 30 2020 18:00:00 +1' 
 initializeClock('countdown', deadline);
