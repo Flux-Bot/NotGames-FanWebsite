@@ -1,6 +1,7 @@
 @font-face {
 	font-family: Trappist;
 	src: url(../fonts/Trappist-Regular.woff2) format('woff2');
+	src: url(../fonts/Trappist-Regular.woff) format('woff');
  font-style: normal;
 }
 header {
