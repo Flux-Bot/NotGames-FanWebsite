@@ -1,5 +1,10 @@
+@font-face {
+	font-family: Trappist;
+	src: url(../fonts/Trappist-Regular.woff2) format('woff2');
+ font-style: normal;
+}
 header {
-    background-color: silver;
+    background-color: #000000;
     background-image: url(header.png);
     height: 250px;
     border-radius: 15px;
@@ -14,7 +19,7 @@ header {
 }
 
 a {
-    color: black;
+    color:#000000;
 }
 
 
@@ -24,16 +29,24 @@ nav ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+	background-color: #000000;
 }
-
+body {
+	color:#000000;
+}
+html {
+	background-color: #000000;
+}
 nav li{
+	font-family: Trappist;
+	src: url(./fonts/Trappist-Regular.woff2) format('woff2');
     text-decoration: none;
     border:1px solid;
     border-radius: 5px;
     margin-left: 15px;
     padding: 0px 10px;
     color: black;
-    background-color: #80DAEB;
+    background-color: #FFFFFF;
     font-size: 20px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.26), 0 4px 12px rgba(0, 0, 0, 0.31);
 }
@@ -44,14 +57,16 @@ nav li{
 }
 /*Timer settings*/
 .countdown-title {
+	font-family: 'Trappist', sans-serif;
   font-weight: 100;
   font-size: 40px;
   margin: 0px 0px 0px 35%;
+  color: #FFFFFF;
 }
 
 .countdown {
-  font-family: sans-serif;
-  color: black;
+  font-family: Trappist;
+  color: #000000;
   display: inline-block;
   font-weight: 100;
   text-align: center;
@@ -63,12 +78,13 @@ nav li{
   padding: 10px;
   border-radius: 3px;
   display: inline-block;
+  color: #FFFFFF;
 }
 
 .countdown-time {
   padding: 15px;
   border-radius: 3px;
-  background: #80DAEB;
+  background: #000000;
   display: inline-block;
 }
 
@@ -76,9 +92,11 @@ nav li{
   display: block;
   padding-top: 5px;
   font-size: 16px;
+  color: #FFFFFF;
 }
 
 .white {
+	font-family: Trappist;
     text-align: center;
     font-size: 30px;
     border:1px solid;
@@ -100,6 +118,7 @@ nav li{
 	border: 3px solid;
 	background-color: white;
 	margin-bottom: 10px;
+	
 }
 .info {
 	font-size: 20px;
@@ -108,4 +127,7 @@ nav li{
 
 .LaunchDay{
 	width: 397px;
+}
+footer {
+	color: #FFFFFF;
 }
