@@ -3,4 +3,4 @@ A fan made website for the developers Not Games Uk and there game Not for broadc
 
 Thanks to Roman#4507 and Mammer#5275 for helping this project
 
-Vist the website here: https://fluxcabury.github.io/NotGames-FanWebsite/Home.html
+Vist the website here: https://flux-bot.github.io/NotGames-FanWebsite/Home.html
